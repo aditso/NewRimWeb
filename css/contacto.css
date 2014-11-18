@@ -1,7 +1,7 @@
 .version.contacto /* version checker */
 {
-	color: #00000A;
-	background-color: #32FC62;
+	color: #0000FC;
+	background-color: #97776C;
 }
 
 #page
@@ -21,6 +21,12 @@
 {
 	margin-top: -36px;
 	margin-bottom: -45px;
+}
+
+#pu2366
+{
+	width: 0.01px;
+	margin-left: -100px;
 }
 
 #u2366
@@ -45,13 +51,6 @@
 	margin-right: -10000px;
 	margin-top: 36px;
 	left: 229px;
-}
-
-#u2332
-{
-	width: 71px;
-	min-height: 28px;
-	margin-right: -10000px;
 }
 
 #u2333
@@ -100,7 +99,7 @@
 	width: 119px;
 	margin-right: -10000px;
 	margin-top: 31px;
-	left: 312px;
+	left: 301px;
 }
 
 #u2296
@@ -156,7 +155,7 @@
 	width: 179px;
 	margin-right: -10000px;
 	margin-top: 31px;
-	left: 453px;
+	left: 428px;
 }
 
 #u2260
@@ -212,7 +211,7 @@
 	width: 126px;
 	margin-right: -10000px;
 	margin-top: 31px;
-	left: 645px;
+	left: 609px;
 }
 
 #u2159
@@ -262,55 +261,6 @@
 	margin: 0px -10000px 0px 0px;
 }
 
-#menuu2223
-{
-	z-index: 11;
-	width: 118px;
-	margin-right: -10000px;
-	margin-top: 31px;
-	left: 785px;
-}
-
-#u2255
-{
-	width: 118px;
-	padding-bottom: 14px;
-}
-
-#u2211.MuseMenuActive,#u2255:hover
-{
-	margin: 0px;
-}
-
-#u2255:active
-{
-	margin: 0px;
-}
-
-#u2257-4
-{
-	width: 118px;
-	min-height: 22px;
-	margin-right: -10000px;
-	top: 7px;
-}
-
-#u2211.MuseMenuActive #u2212-4,#u2255:hover #u2257-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 22px;
-	margin: 0px -10000px 0px 0px;
-}
-
-#u2255:active #u2257-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 22px;
-	margin: 0px -10000px 0px 0px;
-}
-
 #menuu2339
 {
 	z-index: 39;
@@ -320,30 +270,18 @@
 	left: 922px;
 }
 
-#u2224,#u2340
-{
-	width: 118px;
-	min-height: 36px;
-	margin-right: -10000px;
-}
-
 #u2341
 {
 	width: 118px;
 	padding-bottom: 14px;
 }
 
-#u2255.MuseMenuActive,#u2341:hover
+#u2211.MuseMenuActive,#u2341:hover
 {
 	margin: 0px;
 }
 
 #u2341:active
-{
-	margin: 0px;
-}
-
-#u2341.MuseMenuActive
 {
 	margin: 0px;
 }
@@ -356,7 +294,7 @@
 	top: 7px;
 }
 
-#u2255.MuseMenuActive #u2257-4,#u2341:hover #u2343-4
+#u2211.MuseMenuActive #u2212-4,#u2341:hover #u2343-4
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -365,14 +303,6 @@
 }
 
 #u2341:active #u2343-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 22px;
-	margin: 0px -10000px 0px 0px;
-}
-
-#u2341.MuseMenuActive #u2343-4
 {
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -505,9 +435,134 @@
 	height: 88px;
 }
 
+#menuu2223
+{
+	z-index: 11;
+	width: 118px;
+	margin-right: -10000px;
+	margin-top: 31px;
+	left: 734px;
+}
+
+#u2340,#u2224
+{
+	width: 118px;
+	min-height: 36px;
+	margin-right: -10000px;
+}
+
+#u2255
+{
+	width: 118px;
+	padding-bottom: 14px;
+}
+
+#u2341.MuseMenuActive,#u2255:hover
+{
+	margin: 0px;
+}
+
+#u2255:active
+{
+	margin: 0px;
+}
+
+#u2257-4
+{
+	width: 118px;
+	min-height: 22px;
+	margin-right: -10000px;
+	top: 7px;
+}
+
+#u2341.MuseMenuActive #u2343-4,#u2255:hover #u2257-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 22px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u2255:active #u2257-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 22px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#menuu3125
+{
+	z-index: 103;
+	width: 71px;
+	margin-right: -10000px;
+	margin-top: 35px;
+	left: 853px;
+}
+
+#u2332,#u3126
+{
+	width: 71px;
+	min-height: 28px;
+	margin-right: -10000px;
+}
+
+#u3127
+{
+	width: 71px;
+	padding-bottom: 6px;
+}
+
+#u2255.MuseMenuActive,#u3127:hover
+{
+	margin: 0px;
+}
+
+#u3127:active
+{
+	margin: 0px;
+}
+
+#u3127.MuseMenuActive
+{
+	margin: 0px;
+}
+
+#u3128-4
+{
+	width: 71px;
+	min-height: 22px;
+	margin-right: -10000px;
+	top: 3px;
+}
+
+#u2255.MuseMenuActive #u2257-4,#u3127:hover #u3128-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 22px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u3127:active #u3128-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 22px;
+	margin: 0px -10000px 0px 0px;
+}
+
+#u3127.MuseMenuActive #u3128-4
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	min-height: 22px;
+	margin: 0px -10000px 0px 0px;
+}
+
 #widgetu1175
 {
-	z-index: 138;
+	z-index: 145;
 	width: 0.01px;
 	height: 712px;
 	margin-left: 519px;
@@ -517,7 +572,7 @@
 
 #widgetu1181
 {
-	z-index: 139;
+	z-index: 146;
 	width: 342px;
 	height: 47px;
 	border-style: none;
@@ -540,7 +595,7 @@
 
 #u1183-4
 {
-	z-index: 140;
+	z-index: 147;
 	width: 200px;
 	min-height: 20px;
 	border-style: none;
@@ -557,7 +612,7 @@
 
 #u1182-4
 {
-	z-index: 144;
+	z-index: 151;
 	width: 328px;
 	min-height: 14px;
 	border-width: 1px;
@@ -621,7 +676,7 @@
 
 #u1184-4
 {
-	z-index: 148;
+	z-index: 155;
 	width: 130px;
 	min-height: 20px;
 	background-color: transparent;
@@ -640,7 +695,7 @@
 
 #widgetu1176
 {
-	z-index: 152;
+	z-index: 159;
 	width: 342px;
 	height: 47px;
 	border-style: none;
@@ -664,7 +719,7 @@
 
 #u1179-4
 {
-	z-index: 153;
+	z-index: 160;
 	width: 200px;
 	min-height: 20px;
 	border-style: none;
@@ -681,7 +736,7 @@
 
 #u1178-4
 {
-	z-index: 157;
+	z-index: 164;
 	width: 328px;
 	min-height: 14px;
 	border-width: 1px;
@@ -745,7 +800,7 @@
 
 #u1177-4
 {
-	z-index: 161;
+	z-index: 168;
 	width: 130px;
 	min-height: 20px;
 	background-color: transparent;
@@ -764,7 +819,7 @@
 
 #widgetu1191
 {
-	z-index: 165;
+	z-index: 172;
 	width: 342px;
 	height: 47px;
 	border-style: none;
@@ -788,7 +843,7 @@
 
 #u1194-4
 {
-	z-index: 166;
+	z-index: 173;
 	width: 200px;
 	min-height: 20px;
 	background-color: transparent;
@@ -803,7 +858,7 @@
 
 #u1192-4
 {
-	z-index: 170;
+	z-index: 177;
 	width: 328px;
 	min-height: 14px;
 	border-width: 1px;
@@ -867,7 +922,7 @@
 
 #u1193-4
 {
-	z-index: 174;
+	z-index: 181;
 	width: 130px;
 	min-height: 20px;
 	background-color: transparent;
@@ -886,7 +941,7 @@
 
 #u1185-4
 {
-	z-index: 178;
+	z-index: 185;
 	width: 200px;
 	min-height: 26px;
 	background-color: transparent;
@@ -914,7 +969,7 @@
 
 #u1180-4
 {
-	z-index: 182;
+	z-index: 189;
 	width: 200px;
 	min-height: 26px;
 	background-color: transparent;
@@ -943,7 +998,7 @@
 
 #u1186-4
 {
-	z-index: 186;
+	z-index: 193;
 	width: 200px;
 	min-height: 26px;
 	background-color: transparent;
@@ -979,7 +1034,7 @@
 
 #u1211-17
 {
-	z-index: 190;
+	z-index: 197;
 	min-height: 31px;
 	width: 131px;
 	position: relative;
@@ -1006,7 +1061,7 @@
 
 #widgetu1187
 {
-	z-index: 207;
+	z-index: 214;
 	width: 342px;
 	height: 101px;
 	border-style: none;
@@ -1030,7 +1085,7 @@
 
 #u1190-4
 {
-	z-index: 208;
+	z-index: 215;
 	width: 200px;
 	min-height: 20px;
 	border-style: none;
@@ -1057,7 +1112,7 @@
 
 #u1189-4
 {
-	z-index: 212;
+	z-index: 219;
 	width: 328px;
 	min-height: 68px;
 	border-width: 1px;
@@ -1132,7 +1187,7 @@
 
 #u1188-4
 {
-	z-index: 216;
+	z-index: 223;
 	width: 130px;
 	min-height: 20px;
 	background-color: transparent;
@@ -1161,7 +1216,7 @@
 
 #widgetu1216
 {
-	z-index: 220;
+	z-index: 227;
 	width: 342px;
 	height: 47px;
 	border-style: none;
@@ -1185,7 +1240,7 @@
 
 #u1218-4
 {
-	z-index: 221;
+	z-index: 228;
 	width: 200px;
 	min-height: 20px;
 	background-color: transparent;
@@ -1200,7 +1255,7 @@
 
 #u1217-4
 {
-	z-index: 225;
+	z-index: 232;
 	width: 328px;
 	min-height: 14px;
 	border-width: 1px;
@@ -1264,7 +1319,7 @@
 
 #u1219-4
 {
-	z-index: 229;
+	z-index: 236;
 	width: 130px;
 	min-height: 20px;
 	background-color: transparent;
@@ -1283,7 +1338,7 @@
 
 #widgetu1220
 {
-	z-index: 233;
+	z-index: 240;
 	width: 342px;
 	height: 47px;
 	border-style: none;
@@ -1307,7 +1362,7 @@
 
 #u1221-4
 {
-	z-index: 234;
+	z-index: 241;
 	width: 200px;
 	min-height: 20px;
 	background-color: transparent;
@@ -1335,7 +1390,7 @@
 
 #u1223-4
 {
-	z-index: 238;
+	z-index: 245;
 	width: 328px;
 	min-height: 14px;
 	border-width: 1px;
@@ -1410,7 +1465,7 @@
 
 #u1222-4
 {
-	z-index: 242;
+	z-index: 249;
 	width: 130px;
 	min-height: 20px;
 	background-color: transparent;
@@ -1474,7 +1529,7 @@
 
 #u1154-14
 {
-	z-index: 103;
+	z-index: 110;
 	width: 325px;
 	min-height: 78px;
 	background-color: transparent;
@@ -1495,7 +1550,7 @@
 
 #u1155-15
 {
-	z-index: 117;
+	z-index: 124;
 	width: 272px;
 	min-height: 94px;
 	background-color: transparent;
@@ -1530,7 +1585,7 @@
 
 #u1156-6
 {
-	z-index: 132;
+	z-index: 139;
 	width: 220px;
 	min-height: 30px;
 	background-color: transparent;
